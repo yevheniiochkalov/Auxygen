@@ -1,0 +1,57 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "UNION",
+        "name": "GetPostsResult",
+        "possibleTypes": [
+          {
+            "name": "AlbumPost"
+          },
+          {
+            "name": "ArtistPost"
+          },
+          {
+            "name": "TrackPost"
+          },
+          {
+            "name": "Poll"
+          },
+          {
+            "name": "Playlist"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "SearchResult",
+        "possibleTypes": [
+          {
+            "name": "TrackSearchResult"
+          },
+          {
+            "name": "ArtistSearchResult"
+          },
+          {
+            "name": "AlbumSearchResult"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "GetContentPostsResult",
+        "possibleTypes": [
+          {
+            "name": "AlbumPost"
+          },
+          {
+            "name": "ArtistPost"
+          },
+          {
+            "name": "TrackPost"
+          }
+        ]
+      }
+    ]
+  }
+}

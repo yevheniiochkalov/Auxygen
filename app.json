@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Auxygn",
+    "slug": "ota-mobile",
+    "scheme": "auxygn",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.2.1",
+    "orientation": "portrait",
+    "icon": "./assets/Auxygn_icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "facebookScheme": "fb1647259942119049",
+    "facebookAppId": "1647259942119049",
+    "facebookDisplayName": "onTheAux",
+    "ios": {
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.763328994760-sjs3f5h1ptdi4g4942clrg6su0ohvlt2"
+        }
+      },
+      "infoPlist": {
+        "CFBundleURLTypes": {
+          "CFBundleURLSchemes": [
+            "fb1647259942119049"
+          ]
+        },
+        "FacebookAppId": "1647259942119049",
+        "FacebookDisplayName": "onTheAux",
+        "LSApplicationQueriesSchemes": [
+          "fbapi",
+          "fb-messenger-share-api",
+          "fbauth2",
+          "fbshareextension"
+        ]
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "com.interromar.ota-mobile"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/juliet29/ota-mobile",
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.interromar.otamobile",
+      "permissions": [],
+      "versionCode": 6,
+      "useNextNotificationsApi": true
+    }
+  }
+}
